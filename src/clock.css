@@ -1,0 +1,28 @@
+.clock{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.clock .rotate{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.clock .rotate .bg{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    background-image: url(bg_orange.png);
+    background-repeat: no-repeat;
+}
+.clock .left .bg{
+    left: 0;
+    background-position: top left;
+}
+.clock .right .bg{
+    left: 50%;
+    background-position: right top;
+}
