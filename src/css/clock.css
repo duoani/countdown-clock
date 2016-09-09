@@ -15,7 +15,7 @@
     width: 50%;
     height: 100%;
     top: 0;
-    background-image: url(bg_orange.png);
+    background-image: url(../images/bg_orange.png);
     background-repeat: no-repeat;
 }
 .clock .left .bg{
