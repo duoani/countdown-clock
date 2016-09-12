@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*
+*	Date: 2014-11-7
+*	Author: Agnes Xu
+*/
+/* time scroll*/
+.pie{
+    width:40px;
+    height:40px;
+    background-color:blue;
+    border-radius:20px;
+    position:absolute;
+}
+.pie1{
+    clip:rect(0px,40px,40px,20px);
+    -o-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+    background-color:#fff;
+}
+.pie2{
+    clip:rect(0px,20px,40px,0px);
+    -o-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+    background-color:#fff;
+}
+.hold{
+    width:40px;
+    height:40px;
+    position:absolute;
+    z-index:1;
+}
+.bg{
+    width:40px;
+    height:40px;
+    border-radius:40px;
+    position:absolute;
+    background-color:#d13c36;
+}
+.time{
+    width:24px;
+    height:24px;
+    margin:8px 0 0 8px;
+    background-color:#e45534;
+    border-radius:160px;
+    position:absolute;
+    z-index:1;
+    text-align:center;
+    line-height:24px;
+}
